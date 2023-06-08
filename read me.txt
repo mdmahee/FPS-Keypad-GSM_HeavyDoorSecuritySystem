@@ -1,0 +1,6 @@
+4x4 keypad
+sim900
+GT-511c3 finger print sensor
+lcd 16x2
+arduino uno
+linear actuator 24v500NM

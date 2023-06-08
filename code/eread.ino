@@ -1,0 +1,35 @@
+void eread()
+{delay(1000);
+  lcd.clear();
+  lcd.print(" Mobile Number");
+lcd.setCursor(0,1);
+lcd.print("+");
+int aba= EEPROM.read(0);
+lcd.print(aba);
+int ba= EEPROM.read(1);
+lcd.print(ba);
+int ca= EEPROM.read(2);
+lcd.print(ca);
+int da= EEPROM.read(3);
+lcd.print(da);
+int ea= EEPROM.read(4);
+lcd.print(ea);
+int fa= EEPROM.read(5);
+lcd.print(fa);
+int ga= EEPROM.read(6);
+lcd.print(ga);
+int ha= EEPROM.read(7);
+lcd.print(ha);
+int ia= EEPROM.read(8);
+lcd.print(ia);
+int ja= EEPROM.read(9);
+lcd.print(ja);
+int kak= EEPROM.read(10);
+lcd.print(kak);
+int la= EEPROM.read(11);
+lcd.print(la);
+int ma= EEPROM.read(12);
+lcd.print(ma);
+delay(3000);
+lcd.clear();
+}
